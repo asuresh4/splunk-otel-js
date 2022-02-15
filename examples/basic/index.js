@@ -15,7 +15,7 @@ app.get('/hello', (req, res) => {
 });
 
 app.get('/', (req, res) => {
-  axios.get(`http://localhost:${PORT}/hello`)
+  axios.get(`http://localhost:5000/api/items`)
     .then((response) => {
       console.log(200, '/');
       res.status(200).send(`Hello from node: ${response.status}\n`);
