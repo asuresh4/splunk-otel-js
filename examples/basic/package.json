@@ -3,7 +3,7 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "start": "node -r @splunk/otel/instrument index.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "@opentelemetry/api": "^1.0.3",

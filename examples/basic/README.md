@@ -36,3 +36,5 @@ npm start
 ```
 
 Generate spans the same way as above and you'll soon see your data on the dashboard of Splunk APM.
+
+To set logging level for troubleshooting purposes, follow instructions [here](https://docs.splunk.com/Observability/gdi/get-data-in/application/nodejs/troubleshooting/common-nodejs-troubleshooting.html#enable-diagnostic-logging).
